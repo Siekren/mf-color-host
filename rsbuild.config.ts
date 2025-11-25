@@ -20,7 +20,7 @@ export default defineConfig({
         // 🚨 CLAVE: Forzar CORS para aceptar los Remotos
         cors: {
             // Si el error persiste, intenta origin: '*' (solo para desarrollo)
-            origin: ['http://localhost:3001', 'http://localhost:3002'], 
+            origin: ['https://color-list.netlify.app/', 'https://mf-colors.netlify.app/'], 
             methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'], // Añadir métodos
             allowedHeaders: ['Content-Type', 'application/javascript'], // Añadir encabezados
         },

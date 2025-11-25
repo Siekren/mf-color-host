@@ -1,8 +1,8 @@
 export const mfConfig = {
   name: "host",
   remotes: {
-    colorPicker: "mf_color_picker@http://localhost:3001/remoteEntry.js",
-    colorList: "mf_color_list@http://localhost:3002/remoteEntry.js"
+    colorPicker: "mf_color_picker@https://mf-colors.netlify.app/remoteEntry.js",
+    colorList: "mf_color_list@https://color-list.netlify.app/remoteEntry.js"
   },
   exposes: {},
   shared: {
