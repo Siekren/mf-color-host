@@ -17,8 +17,8 @@ export const mfConfig = {
   },
   dts: {
     remotes: {
-        colorPicker: 'http://localhost:3001',
-        colorList: 'http://localhost:3002'
+        colorPicker: 'https://mf-colors.netlify.app',
+        colorList: 'https://color-list.netlify.app'
     },
     generateTypes: true, 
     tsConfigPath: './tsconfig.json',
